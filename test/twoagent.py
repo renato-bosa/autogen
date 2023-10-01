@@ -1,4 +1,7 @@
 from autogen import AssistantAgent, UserProxyAgent, config_list_from_json
+import openai
+
+openai.api_key = "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"
 
 # Load LLM inference endpoints from an env variable or a file
 # See https://microsoft.github.io/autogen/docs/FAQ#set-your-api-endpoints
